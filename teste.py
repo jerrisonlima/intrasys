@@ -1,5 +1,9 @@
 x = int(input("Entre com um numero: "))
     
+if isinstance(x, str)
+   print(f'You enter {x}, this is a string, not a number')
+    
+    
 if x < 0:
     print('Numero menor que zero')
     
